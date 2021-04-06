@@ -12,3 +12,11 @@ Install-Package Microsoft.EntityFrameworkCore.Tools
 ### EF Criação do banco de dados e criação da tabela
 Add-Migration InitialCategorias
 Update-Database
+
+#### Observação: Microsoft.EntityFrameworkCore.Tools e Microsoft.EntityFrameworkCore.Design mesma versão 3.1.13
+#### ---------- : Microsoft.VisualStudio.Web.CodeGeneration.Design versão 3.1.5
+#### ---------- : Tem que instalar o Microsoft.EntityFrameworkCore.SqlServer versão 3.1.13
+#### ---------- : Tem que instalar o Microsoft.EntityFrameworkCore.Sqlite versão 3.1.13
+### EF Criação da segunta tabela -- Produtos
+Add-Migration TabelaProdutos
+Update-Database
