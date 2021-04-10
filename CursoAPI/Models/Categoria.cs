@@ -12,6 +12,6 @@ namespace CursoAPI.Models {
         [Required(ErrorMessage = "O campo descrição é obrigatório.")]
         public string Descricao { get; set; }
 
-        public List<Produto> Produtos { get; set; }
+        //para evitar referência circular na API -- public List<Produto> Produtos { get; set; }
     }
 }
